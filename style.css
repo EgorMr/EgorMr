@@ -30,6 +30,7 @@ main {
 }
 
 .EnterFirstPage {
+    font-size: 30px;
     padding: 35px;
     display: inline-block;
     border-radius: 50%;
