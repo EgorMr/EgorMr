@@ -30,7 +30,12 @@ main {
 }
 
 .EnterFirstPage {
+    height: 10vh;
+    width: 10vh;
     margin: 10px;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 5vh;
+}
+.bottom-button {
+    padding-top: 25vh;
 }
