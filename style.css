@@ -21,6 +21,7 @@ main {
 }
 
 .Middle {
+    margin: 10px;
     text-align: center;
     line-height: 5;
     border: 5px solid #000000;
