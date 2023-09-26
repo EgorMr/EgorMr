@@ -11,5 +11,7 @@ body {
     font-weight: 200;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
+    border: 6px solid #7922CC;
+    border-radius: 25px;
 
 }
