@@ -21,9 +21,9 @@ main {
 }
 
 .Middle {
-    border: 5px solid #808080;
+    border: 5px solid #000000;
     border-radius: 25px;
-    /*border-image: linear-gradient(to bottom, #808080 5%, #C0C0C0 100%);*!*/
+    border-image: linear-gradient(to bottom, #000000 5%, #C0C0C0 100%);
 }
 .EnterFirstPage {
     margin: 10px;
