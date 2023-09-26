@@ -22,7 +22,7 @@ main {
 
 .Middle {
     margin: 10px;
-    min-height: 80vh;
+    min-height: 90vh;
     text-align: center;
     line-height: 5;
     border: 5px solid #000000;
@@ -38,5 +38,5 @@ main {
     border-radius: 50%;
 }
 .bottom-button {
-    padding-top: 25vh;
+    padding-top: 33vh;
 }
