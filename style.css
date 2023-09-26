@@ -33,7 +33,7 @@ main {
     height: 10vh;
     width: 10vh;
     margin: 10px;
-    border-radius: 40px;
+    border-radius: 10vh;
 }
 .bottom-button {
     padding-top: 25vh;
