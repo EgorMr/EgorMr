@@ -30,9 +30,8 @@ main {
 }
 
 .EnterFirstPage {
-    height: 10vh;
-    width: 10vh;
-    margin: 10px;
+    padding: 10%;
+    display: inline-block;
     border-radius: 50%;
 }
 .bottom-button {
