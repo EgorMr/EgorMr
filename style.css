@@ -23,7 +23,10 @@ main {
 .Middle {
     border: 5px solid #000000;
     border-radius: 25px;
+}
+.Middle::before {
     border-image: linear-gradient(to bottom, #000000 5%, #C0C0C0 100%);
+
 }
 .EnterFirstPage {
     margin: 10px;
