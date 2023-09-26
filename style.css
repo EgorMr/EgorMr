@@ -35,7 +35,7 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 50%;
 }
 .bottom-button {
     padding-top: 25vh;
