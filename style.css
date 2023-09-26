@@ -31,9 +31,9 @@ main {
 
 .EnterFirstPage {
     font-size: 30px;
-    padding: 35px;
+    padding: 15px;
     display: inline-block;
-    border-radius: 60px;
+    border-radius: 25px;
 }
 .bottom-button {
     padding-top: 25vh;
