@@ -36,6 +36,8 @@ main {
     text-decoration: none;
     display: inline-block;
     border-radius: 60%;
+    -webkit-appearance: none;
+    -moz-appearance:none;
 }
 .bottom-button {
     padding-top: 33vh;
