@@ -11,12 +11,13 @@ body {
     font-weight: 200;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-    border: 5px solid #7922CC;
+    border: 5px solid #808080;
     border-radius: 25px;
-
+    border-image: linear-gradient(to bottom, #808080 5%, #C0C0C0 100%);
 }
 
 main {
+    text-align: center;
     margin: 10px;
     padding: 10px;
     line-height: 25px;
