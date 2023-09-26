@@ -22,7 +22,7 @@ main {
 
 .Middle {
     margin: 10px;
-    min-height: 100vh;
+    min-height: 80vh;
     text-align: center;
     line-height: 5;
     border: 5px solid #000000;
