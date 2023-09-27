@@ -41,9 +41,6 @@ enter.addEventListener('click', () => {
 if (about != null) {
     about.addEventListener('click', () => {
     document.getElementById('form').style.display = "none";
-    document.getElementById('about').onclick = function() {
-        window.location.href = 'info-page.html';
-    };
 });
 }
 home.addEventListener('click', () => {
