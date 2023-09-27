@@ -22,7 +22,6 @@ main {
 
 .FirstTextBox {
     line-height: 3;
-    margin-top: 5vh;
 }
 .SecondTextBox {
     line-height: 3;
@@ -41,6 +40,9 @@ main {
     opacity: 1;
   }
 }
+.CompanyHeader {
+    padding-top: 5vh;
+    }
 .Middle {
     margin: 10px;
     min-height: 95vh;
