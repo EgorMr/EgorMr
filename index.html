@@ -59,6 +59,7 @@
                     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
                 });
                 about.addEventListener('click', () => {
+                    document.getElementById('form').style.display = "none";
                     document.getElementById('FirstText').style.display = "none";
                     document.getElementById('AboutTextFirst').style.display = "block";
                     // tg.close()
