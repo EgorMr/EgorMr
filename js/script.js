@@ -14,13 +14,30 @@ tg.expand()
 
 enter.addEventListener('click', () => {
     document.getElementById('form').style.display = "block";
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "none";
-    document.getElementById('AboutTextFourth').style.display = "none";
+    if (document.getElementById('FirstText') != null) {
+        document.getElementById('FirstText').style.display = "none";
+                }
+    if (document.getElementById('SecondText') != null) {
+        document.getElementById('SecondText').style.display = "none";
+                }
+    if (document.getElementById('AboutTextFirst') != null) {
+        document.getElementById('AboutTextFirst').style.display = "none";
+                }
+    if (document.getElementById('AboutTextSecond') != null) {
+        document.getElementById('AboutTextSecond').style.display = "none";
+                }
+    if (document.getElementById('AboutTextThird') != null) {
+        document.getElementById('AboutTextThird').style.display = "none";
+                }
+    if (document.getElementById('AboutTextFourth') != null) {
+        document.getElementById('AboutTextFourth').style.display = "none";
+                }
+    if (document.getElementById('AboutTextFifth') != null) {
     document.getElementById('AboutTextFifth').style.display = "none";
+                }
     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
-        });
+
+});
 if (about != null) {
     about.addEventListener('click', () => {
     document.getElementById('form').style.display = "none";
@@ -28,7 +45,7 @@ if (about != null) {
         window.location.href = 'info-page.html';
     };
 });
-};
+}
 home.addEventListener('click', () => {
             document.getElementById('home').onclick = function() {
                 window.location.href = 'index.html';
