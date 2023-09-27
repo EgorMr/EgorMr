@@ -29,7 +29,7 @@ main {
     border-radius: 25px;
 }
 
-.EnterFirstPage {
+button {
     font-size: 30px;
     padding: 20px;
     text-align: center;
@@ -39,21 +39,11 @@ main {
     -webkit-appearance: none;
     -moz-appearance:none;
 }
-.EnterAboutPage {
-    font-size: 30px;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 60%;
-    -webkit-appearance: none;
-    -moz-appearance:none;
+button:hover {
+    background: var(--th-theme-secondary-bg-color);
 }
 .bottom-button {
     padding-top: 33vh;
-}
-.bottom-button:hover {
-    background: var(--th-theme-secondary-bg-color);
 }
 #form {
     display: none;
