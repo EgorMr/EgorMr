@@ -22,6 +22,7 @@ main {
 
 .FirstText {
     line-height: 3
+    margin-top: 5vh;
 }
 .Middle {
     margin: 10px;
