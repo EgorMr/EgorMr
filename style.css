@@ -20,6 +20,9 @@ main {
     line-height: 25px;
 }
 
+.FirstText {
+    line-height: 3
+}
 .Middle {
     margin: 10px;
     min-height: 90vh;
