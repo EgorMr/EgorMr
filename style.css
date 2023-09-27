@@ -39,6 +39,16 @@ main {
     -webkit-appearance: none;
     -moz-appearance:none;
 }
+.EnterAboutPage {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 60%;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
 .bottom-button {
     padding-top: 33vh;
 }
