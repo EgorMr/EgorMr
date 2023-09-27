@@ -19,10 +19,23 @@
             <div id="FirstText" class="FirstText">
                 <p>Some text placed in body</p>
             </div>
-            <div id="AboutTextFirst" class="AboutText">
+            <div id="AboutTextFirst" class="AboutText" style="display: none">
                 <h2>Преимущества инвестиций в недвижимость в Таиланде</h2>
                 <p>Растущий туристический рынок: Таиланд является популярным туристическим направлением,
                     что обеспечивает стабильный поток арендных доходов для инвесторов в недвижимость</p>
+                <button id="next1"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextSecond" class="AboutText" style="display: none">
+                <h2>Преимущества инвестиций в недвижимость в Таиланде</h2>
+                <p>Привлекательные цены: стоимость недвижимости в Таиланде относительно доступна в сравнении с
+                    другими регионами, что делает его привлекательным для инвестиций</p>
+                <button id="next2"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextThird" class="AboutText" style="display: none">
+                <h2>Преимущества инвестиций в недвижимость в Таиланде</h2>
+                <p>Повышение капитализации: ожидается, что стоимость недвижимости в Таиланде будет продолжать расти,
+                    предоставляя возможность для увеличения капитала инвесторов</p>
+                <button id="next3"><i class="fi fi-rs-angle-small-right"></i></button>
             </div>
             <form id="form">
                 <input type="text" placeholder="Name" id="user_name">
@@ -37,6 +50,8 @@
                 let tg = window.Telegram.WebApp;
                 let enter = document.getElementById('enter')
                 let about = document.getElementById('about')
+                let next1 = document.getElementById('next1')
+                tg.expand()
 
                 enter.addEventListener('click', () => {
                     document.getElementById('FirstText').style.display = "none";
@@ -44,7 +59,22 @@
                     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
                 });
                 about.addEventListener('click', () => {
-                    tg.close()
+                    document.getElementById('FirstText').style.display = "none";
+                    document.getElementById('AboutTextFirst').style.display = "block";
+                    // tg.close()
+                });
+                next1.addEventListener('click', () => {
+                    document.getElementById('FirstText').style.display = "none";
+                    document.getElementById('AboutTextFirst').style.display = "none";
+                    document.getElementById('AboutTextSecond').style.display = "block";
+
+                });
+                next2.addEventListener('click', () => {
+                    document.getElementById('FirstText').style.display = "none";
+                    document.getElementById('AboutTextFirst').style.display = "none";
+                    document.getElementById('AboutTextSecond').style.display = "none";
+                    document.getElementById('AboutTextThird').style.display = "block";
+
                 });
 
             </script>
