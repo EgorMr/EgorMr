@@ -13,9 +13,11 @@
 <body>
     <div id="main">
         <div class="Middle">
-            <h1>Royal Estate</h1>
-            <form id="form">
+            <div class="FirstText">
+                <h1>Royal Estate</h1>
                 <p>Some text placed in body</p>
+            </div>
+            <form id="form">
                 <input type="text" placeholder="Name" id="user_name">
                 <input type="text" placeholder="Email" id="user_email">
                 <input type="text" placeholder="Phone" id="user_phone">
@@ -30,7 +32,7 @@
                 let about = document.getElementById('about')
 
                 enter.addEventListener('click', () => {
-                    document.getElementById('main').style.display = "none";
+                    document.getElementById('FirstText').style.display = "none";
                     document.getElementById('form').style.display = "block";
                     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
                 });
