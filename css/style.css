@@ -20,9 +20,26 @@ main {
     line-height: 25px;
 }
 
-.FirstText {
+.FirstTextBox {
     line-height: 3;
     margin-top: 5vh;
+}
+.SecondTextBox {
+    line-height: 3;
+}
+.Middle p, .Middle h1, .Middle h2, .Middle h3, .Middle form {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .Middle {
     margin: 10px;
@@ -46,9 +63,7 @@ button {
 button:hover {
     background: var(--th-theme-secondary-bg-color);
 }
-.bottom-button {
-    padding-top: 33vh;
-}
+
 #form {
     display: none;
     text-align: center;
@@ -66,5 +81,17 @@ input:focus {
     border-color: #db5d5d;
 }
 .AboutText {
-    line-height: 3;
+    line-height: 2;
+    padding-top: 10px;
+}
+.PageButton {
+    margin-top: 3vh;
+}
+.bottom-button {
+
+}
+.footer {
+    clear: both;
+    margin: -15vh;
+    text-align: center;
 }

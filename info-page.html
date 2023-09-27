@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content='width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <title>Estate Investment</title>
+    <link rel='stylesheet' href="css/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="Middle">
+            <div id="CompanyHeader" class="CompanyHeader">
+                <h1>Royal Estate</h1>
+            </div>
+            <div id="PageHeader" class="PageHeader">
+                <h3>Преимущества</h3>
+            </div>
+            <div id="AboutTextFirst" class="AboutText">
+                <p>Растущий туристический рынок: Таиланд является популярным туристическим направлением,
+                    что обеспечивает стабильный поток арендных доходов для инвесторов в недвижимость</p>
+                <button id="next1" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextSecond" class="AboutText" style="display: none">
+                <p>Привлекательные цены: стоимость недвижимости в Таиланде относительно доступна в сравнении с
+                    другими регионами, что делает его привлекательным для инвестиций</p>
+                <button id="back1" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+                <button id="next2" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextThird" class="AboutText" style="display: none">
+                <p>Повышение капитализации: ожидается, что стоимость недвижимости в Таиланде будет продолжать расти,
+                    предоставляя возможность для увеличения капитала инвесторов</p>
+                <button id="back2" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+                <button id="next3" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextFourth" class="AboutText" style="display: none">
+                <p>Льготы для иностранных инвесторов: налоговые льготы и долгосрочные кредиты доступны для
+                    иностранных инвесторов, что облегчает процесс инвестирования</p>
+                <button id="back3" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+                <button id="next4" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextFifth" class="AboutText" style="display: none">
+                <p>Уникальная культура и природа: Таиланд обладает богатым наследием культуры и красивыми пейзажами,
+                    что делает недвижимость привлекательной для проживания и отдыха</p>
+                <button id="back4" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+            </div>
+            <form id="form">
+                <input type="text" placeholder="Name" id="user_name">
+                <input type="text" placeholder="Budget" id="user_budget">
+                <input type="text" placeholder="quadrature" id="user_quadrature">
+            </form>
+        </div>
+        <div class="footer">
+            <div class="bottom-button">
+                <button id="enter"><i class="fi fi-rs-portal-enter"></i></button>
+                <button id="home"><i class="fi fi-rs-home"></i></button>
+            </div>
+        </div>
+    </div>
+<!--    <script>-->
+<!--        let tg = window.Telegram.WebApp;-->
+<!--        let enter = document.getElementById('enter')-->
+<!--        let next1 = document.getElementById('next1')-->
+<!--        let next2 = document.getElementById('next2')-->
+<!--        let next3 = document.getElementById('next3')-->
+<!--        let next4 = document.getElementById('next4')-->
+<!--        let back1 = document.getElementById('back1')-->
+<!--        let back2 = document.getElementById('back2')-->
+<!--        let back3 = document.getElementById('back3')-->
+<!--        let back4 = document.getElementById('back4')-->
+<!--        let home = document.getElementById('home')-->
+<!--        tg.expand()-->
+
+<!--        enter.addEventListener('click', () => {-->
+<!--            document.getElementById('form').style.display = "block";-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "none";-->
+<!--            document.getElementById('AboutTextFourth').style.display = "none";-->
+<!--            document.getElementById('AboutTextFifth').style.display = "none";-->
+<!--            document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;-->
+<!--        });-->
+<!--        next1.addEventListener('click', () => {-->
+<!--            document.getElementById('form').style.display = "none";-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "block";-->
+<!--        });-->
+<!--        next2.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "block";-->
+<!--                });-->
+<!--        next3.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "none";-->
+<!--            document.getElementById('AboutTextFourth').style.display = "block";-->
+<!--                });-->
+<!--        next4.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "none";-->
+<!--            document.getElementById('AboutTextFourth').style.display = "none";-->
+<!--            document.getElementById('AboutTextFifth').style.display = "block";-->
+<!--                });-->
+<!--        back1.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "block";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--        });-->
+<!--        back2.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "block";-->
+<!--            document.getElementById('AboutTextThird').style.display = "none";-->
+<!--        });-->
+<!--        back3.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "block";-->
+<!--            document.getElementById('AboutTextFourth').style.display = "none";-->
+
+<!--        });-->
+<!--        back4.addEventListener('click', () => {-->
+<!--            document.getElementById('AboutTextFirst').style.display = "none";-->
+<!--            document.getElementById('AboutTextSecond').style.display = "none";-->
+<!--            document.getElementById('AboutTextThird').style.display = "none";-->
+<!--            document.getElementById('AboutTextFourth').style.display = "block";-->
+<!--            document.getElementById('AboutTextFifth').style.display = "none";-->
+<!--        });-->
+<!--        home.addEventListener('click', () => {-->
+<!--                    document.getElementById('home').onclick = function() {-->
+<!--                        window.location.href = 'index.html';-->
+<!--                    document.getElementById('FirstText').style.display = "block";-->
+<!--                    };-->
+<!--                    // tg.close()-->
+<!--                });-->
+<!--    </script>-->
+<script src="js/script.js"></script>
+</body>
+</html>
