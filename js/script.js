@@ -22,6 +22,15 @@ enter.addEventListener('click', () => {
     if (document.getElementById('SecondText') != null) {
         document.getElementById('SecondText').style.display = "none";
                 }
+    if (document.getElementById('ColumnInfo') != null) {
+        document.getElementById('ColumnInfo').style.display = "none";
+                }
+    if (document.getElementById('AboutInfoText') != null) {
+        document.getElementById('AboutInfoText').style.display = "none";
+                }
+    if (document.getElementById('SecondText') != null) {
+        document.getElementById('SecondText').style.display = "none";
+                }
     if (document.getElementById('AboutTextFirst') != null) {
         document.getElementById('AboutTextFirst').style.display = "none";
                 }
