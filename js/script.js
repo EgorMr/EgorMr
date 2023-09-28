@@ -47,65 +47,82 @@ if (about != null) {
     document.getElementById('form').style.display = "none";
 });
 }
+if (home != null) {
 home.addEventListener('click', () => {
             document.getElementById('FirstText').style.display = "block";
             // tg.close()
         });
-count.addEventListener('click', () => {
-            document.getElementById('home').onclick = function() {
-                window.location.href = 'villa-view.html';
-            document.getElementById('form').style.display = "none";
-            document.getElementById('AboutTextFirst').style.display = "none";
-            document.getElementById('AboutTextSecond').style.display = "none";
-            document.getElementById('AboutTextThird').style.display = "none";
-            document.getElementById('AboutTextFourth').style.display = "none";
-            document.getElementById('AboutTextFifth').style.display = "none";
-            };
+}
+if (count != null) {
+    count.addEventListener('click', () => {
+        document.getElementById('form').style.display = "none";
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "none";
+        document.getElementById('AboutTextFourth').style.display = "none";
+        document.getElementById('AboutTextFifth').style.display = "none";
         });
-next1.addEventListener('click', () => {
-    document.getElementById('form').style.display = "none";
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "block";
-});
-next2.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "block";
-        });
-next3.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "none";
-    document.getElementById('AboutTextFourth').style.display = "block";
-        });
-next4.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "none";
-    document.getElementById('AboutTextFourth').style.display = "none";
-    document.getElementById('AboutTextFifth').style.display = "block";
-        });
-back1.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "block";
-    document.getElementById('AboutTextSecond').style.display = "none";
-});
-back2.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "block";
-    document.getElementById('AboutTextThird').style.display = "none";
-});
-back3.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "block";
-    document.getElementById('AboutTextFourth').style.display = "none";
+}
+if (next1 != null) {
+    next1.addEventListener('click', () => {
+        document.getElementById('form').style.display = "none";
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "block";
+    });
+}
+if (next2 != null) {
+    next2.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "block";
+    });
+}
+if (next3 != null) {
+    next3.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "none";
+        document.getElementById('AboutTextFourth').style.display = "block";
+    });
+}
+if (next4 != null) {
+    next4.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "none";
+        document.getElementById('AboutTextFourth').style.display = "none";
+        document.getElementById('AboutTextFifth').style.display = "block";
+    });
+}
+if (back1 != null) {
+    back1.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "block";
+        document.getElementById('AboutTextSecond').style.display = "none";
+    });
+}
+if (back2 != null) {
+    back2.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "block";
+        document.getElementById('AboutTextThird').style.display = "none";
+    });
+}
+if (back3 != null) {
+    back3.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "block";
+        document.getElementById('AboutTextFourth').style.display = "none";
 
-});
-back4.addEventListener('click', () => {
-    document.getElementById('AboutTextFirst').style.display = "none";
-    document.getElementById('AboutTextSecond').style.display = "none";
-    document.getElementById('AboutTextThird').style.display = "none";
-    document.getElementById('AboutTextFourth').style.display = "block";
-    document.getElementById('AboutTextFifth').style.display = "none";
-});
+    });
+}
+if (back4 != null) {
+    back4.addEventListener('click', () => {
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "none";
+        document.getElementById('AboutTextFourth').style.display = "block";
+        document.getElementById('AboutTextFifth').style.display = "none";
+    });
+}
 
