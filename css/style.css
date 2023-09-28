@@ -32,7 +32,7 @@ main {
     font-size: 10px;
     text-align: left;
 }
-.Middle p, .Middle h1, .Middle h2, .Middle h3, .Middle form {
+.Middle p, .Middle h1, .Middle h2, .Middle h3, .Middle h4, .Middle h5, .Middle h6, .Middle form {
     opacity: 0;
     animation: fadeIn ease-in 1;
     animation-fill-mode: forwards;
