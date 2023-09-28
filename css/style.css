@@ -24,10 +24,13 @@ main {
 }
 
 .FirstTextBox {
-    line-height: 3;
+    line-height: 1;
 }
 .SecondTextBox {
-    line-height: 3;
+    line-height: 2;
+    margin: 5px;
+    font-size: 10px;
+    text-align: left;
 }
 .Middle p, .Middle h1, .Middle h2, .Middle h3, .Middle form {
     opacity: 0;
@@ -56,6 +59,9 @@ h1, h2, h3, p {
 .CompanyHeader img {
     height: 6vh;
 }
+.VillaObjectHeader img {
+    height: 24vh;
+}
 .Middle {
     margin: 10px;
     min-height: 100vh;
@@ -66,7 +72,32 @@ h1, h2, h3, p {
     /*border-image: linear-gradient(to right, #f0e47d, #f5f6e8) 1;*/
     /*border-radius: 25px;*/
 }
+.ColumnInfo {
+    /*column-width: 48%;*/
+    /*column-count: 2;*/
+    /*column-gap: 4%;*/
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #f0e47d, #f5f6e8) 1;
 
+}
+.LeftColumn {
+float: left;
+width: 48%;
+}
+
+.RightColumn {
+margin-left: 52%;
+}
+.LeftColumn, .RightColumn {
+    line-height: 1.2;
+    font-size: 15px;
+}
+.ColumnText {
+    padding: 5px;
+}
 button {
     font-size: 20px;
     padding: 10px;
@@ -110,6 +141,14 @@ input:focus {
     padding-left: 5%;
     padding-right: 5%;
     line-height: 2;
+}
+.AboutInfoText {
+    padding-top: 1vh;
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    text-align: left;
 }
 .PageButton {
     margin-top: 5vh;
