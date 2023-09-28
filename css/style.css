@@ -98,7 +98,8 @@ input:focus {
 }
 .AboutText {
 
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     line-height: 2;
 }
 .PageButton {
