@@ -10,6 +10,7 @@ let back2 = document.getElementById('back2')
 let back3 = document.getElementById('back3')
 let back4 = document.getElementById('back4')
 let home = document.getElementById('home')
+let count = document.getElementById('count')
 tg.expand()
 
 enter.addEventListener('click', () => {
@@ -52,6 +53,11 @@ home.addEventListener('click', () => {
             document.getElementById('FirstText').style.display = "block";
             };
             // tg.close()
+        });
+home.addEventListener('click', () => {
+            document.getElementById('home').onclick = function() {
+                window.location.href = 'villa-view.html';
+            };
         });
 next1.addEventListener('click', () => {
     document.getElementById('form').style.display = "none";
