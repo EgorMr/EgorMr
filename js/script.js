@@ -35,6 +35,9 @@ enter.addEventListener('click', () => {
     if (document.getElementById('AboutTextFifth') != null) {
     document.getElementById('AboutTextFifth').style.display = "none";
                 }
+    if (document.getElementById('PageHeader') != null) {
+    document.getElementById('PageHeader').style.display = "none";
+                }
     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
 
 });
