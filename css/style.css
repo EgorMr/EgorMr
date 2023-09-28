@@ -55,8 +55,11 @@ main {
     min-height: 100vh;
     text-align: center;
     line-height: 5;
-    /*border: 5px solid #000000;*/
-    /*border-radius: 25px;*/
+    /*border: 2px solid #f0e47d;*/
+    border-style: solid;
+    border-image: linear-gradient(to right, #f0e47d, #f5f6e8) 1;
+
+    border-radius: 25px;
 }
 
 button {
@@ -110,7 +113,7 @@ input:focus {
 }
 .footer {
     clear: both;
-    margin: -15vh;
+    margin: -17vh;
     padding-top: 10%;
     text-align: center;
 }
