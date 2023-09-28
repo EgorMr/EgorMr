@@ -15,6 +15,7 @@ tg.expand()
 
 enter.addEventListener('click', () => {
     document.getElementById('form').style.display = "block";
+    document.getElementById('CountButton').style.display = "block";
     if (document.getElementById('FirstText') != null) {
         document.getElementById('FirstText').style.display = "none";
                 }
@@ -48,10 +49,10 @@ if (about != null) {
 });
 }
 if (home != null) {
-home.addEventListener('click', () => {
-            document.getElementById('FirstText').style.display = "block";
-            // tg.close()
-        });
+    home.addEventListener('click', () => {
+        document.getElementById('FirstText').style.display = "block";
+        // tg.close()
+    });
 }
 if (count != null) {
     count.addEventListener('click', () => {
