@@ -48,10 +48,7 @@ if (about != null) {
 });
 }
 home.addEventListener('click', () => {
-            document.getElementById('home').onclick = function() {
-                window.location.href = 'index.html';
             document.getElementById('FirstText').style.display = "block";
-            };
             // tg.close()
         });
 count.addEventListener('click', () => {
