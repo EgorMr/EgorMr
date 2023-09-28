@@ -59,6 +59,9 @@ h1, h2, h3, p {
 .CompanyHeader img {
     height: 6vh;
 }
+.VillaObjectHeader {
+    min-height: 27vh;
+}
 .VillaObjectHeader img {
     height: 24vh;
 }
