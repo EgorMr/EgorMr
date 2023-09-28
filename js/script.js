@@ -13,6 +13,16 @@ let home = document.getElementById('home')
 let count = document.getElementById('count')
 tg.expand()
 
+const div = document.querySelector( '#popup');
+
+document.addEventListener( 'click', (e) => {
+	const withinBoundaries = e.composedPath().includes(div);
+
+	if ( ! withinBoundaries ) {
+		div.style.display = 'none'; // скрываем элемент т к клик был за его пределами
+	}
+})
+
 enter.addEventListener('click', () => {
     document.getElementById('form').style.display = "block";
     document.getElementById('CountButton').style.display = "block";

@@ -118,7 +118,13 @@ button:hover {
     color: black;
     background-color: #f0e47d;
 }
-
+.PageButton {
+    margin-top: 5vh;
+}
+.PageButton button:hover {
+    color: black;
+    background-color: #f0e47d;
+}
 #form {
     display: none;
     text-align: center;
@@ -154,12 +160,7 @@ input:focus {
     border-top-style: solid;
     border-image: linear-gradient(to right, #f0e47d, #f5f6e8) 1;
 }
-.PageButton {
-    margin-top: 5vh;
-}
-.bottom-button {
 
-}
 .footer {
     clear: both;
     margin: -17vh;
