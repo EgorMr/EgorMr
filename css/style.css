@@ -52,7 +52,7 @@ main {
 }
 .Middle {
     margin: 10px;
-    min-height: 95vh;
+    min-height: 100vh;
     text-align: center;
     line-height: 5;
     /*border: 5px solid #000000;*/
@@ -102,6 +102,6 @@ input:focus {
 }
 .footer {
     clear: both;
-    margin: -15vh;
+    margin: -5vh;
     text-align: center;
 }
