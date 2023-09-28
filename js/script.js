@@ -54,9 +54,15 @@ home.addEventListener('click', () => {
             };
             // tg.close()
         });
-home.addEventListener('click', () => {
+count.addEventListener('click', () => {
             document.getElementById('home').onclick = function() {
                 window.location.href = 'villa-view.html';
+            document.getElementById('form').style.display = "none";
+            document.getElementById('AboutTextFirst').style.display = "none";
+            document.getElementById('AboutTextSecond').style.display = "none";
+            document.getElementById('AboutTextThird').style.display = "none";
+            document.getElementById('AboutTextFourth').style.display = "none";
+            document.getElementById('AboutTextFifth').style.display = "none";
             };
         });
 next1.addEventListener('click', () => {
