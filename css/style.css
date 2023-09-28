@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@600;500&display=swap");
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Garamond', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     color: #f0e47d;
     background: black;
@@ -97,7 +97,7 @@ input:focus {
     border-color: white;
 }
 .AboutText {
-
+    font-size: 18px;
     padding-left: 5%;
     padding-right: 5%;
     line-height: 2;
