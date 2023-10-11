@@ -45,7 +45,7 @@ h1, h2, h3, p {
     /*-webkit-background-clip: text;*/
     /*-webkit-text-fill-color: transparent;*/
 }
-.GradientTextYellowToWhite {
+.GradientTextYellowToWhite, .ColumnInfo, .AboutInfoText p, .AboutInfoText h3{
     background: linear-gradient(to right,#f0e47d, #f5f6e8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,6 +67,9 @@ h1, h2, h3, p {
 }
 .PageHeader {
     margin: 10%;
+}
+.SecondHeader {
+    margin-bottom: 2vh;
 }
 .CompanyHeader {
     padding-top: 10vh;
