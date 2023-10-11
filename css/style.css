@@ -45,7 +45,7 @@ h1, h2, h3, p {
     /*-webkit-background-clip: text;*/
     /*-webkit-text-fill-color: transparent;*/
 }
-.GradientTextYellowToWhite, .ColumnInfo, .AboutInfoText p, .AboutInfoText h3{
+.GradientTextYellowToWhite, .GradientTextYellowToWhite h3, .ColumnInfo, .AboutInfoText p, .AboutInfoText h3{
     background: linear-gradient(to right,#f0e47d, #f5f6e8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
