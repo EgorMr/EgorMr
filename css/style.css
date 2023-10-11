@@ -73,10 +73,10 @@ h1, h2, h3, p {
     height: 24vh;
 }
 .ProjectExample {
-    min-height: 27vh;
 }
 .ProjectExample img {
-    height: 24vh;
+    width: 100%;
+    height: auto;
 }
 .Middle {
     margin: 10px;
