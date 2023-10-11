@@ -102,9 +102,10 @@ h1, h2, h3, p {
     /*border-radius: 25px;*/
 }
 .LeftText {
-    text-align: left;
+    margin-left: 3vh;
 }
 .BlockText {
+    text-align: left;
     margin-bottom: 2vh;
 }
 .ColumnInfo {
