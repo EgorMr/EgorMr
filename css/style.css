@@ -45,6 +45,12 @@ h1, h2, h3, p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*.YellowToWhiteText {*/
+/*    color: darkorange;*/
+/*}*/
+/*.WhiteText {*/
+/*    color: white;*/
+/*}*/
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -64,6 +70,12 @@ h1, h2, h3, p {
     min-height: 27vh;
 }
 .VillaObjectHeader img {
+    height: 24vh;
+}
+.ProjectExample {
+    min-height: 27vh;
+}
+.ProjectExample img {
     height: 24vh;
 }
 .Middle {

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content='width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <title>Estate Investment</title>
+    <link rel='stylesheet' href="css/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="Middle">
+            <div id="CompanyHeader" class="CompanyHeader">
+                <a href="index.html" class="logo">
+                  <img class="Logo" src="img/main_logo2.png" alt="Logotype" title="Logo">
+               </a>
+            </div>
+            <div id="PageHeader" class="PageHeader">
+                <h3>Этапы программы Rental Pool</h3>
+            </div>
+            <div id="AboutTextFirst" class="AboutText">
+                <p class="YellowToWhiteText">Собственник заключает <span class="WhiteText">договор с управляющей компанией</span></p>
+                <p class="YellowToWhiteText">Управляющая компания <span class="WhiteText">формирует пулы и сдает их в аренду</span></p>
+                <p class="YellowToWhiteText">По окончанию отчетного периода <span class="WhiteText">собственник получает доход</span></p>
+                <button id="next1" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextSecond" class="AboutText" style="display: none">
+                <p class="YellowToWhiteText">Пример расчета суммы дохода по программе Rental Pool</p>
+                <p class="YellowToWhiteText"><span class="WhiteText">студия 36,7 м2</span></p>
+
+                <p class="YellowToWhiteText">1272 926 ТНВ <span class="WhiteText">— выручка за год с учетом
+                загрузки в разные сезоны</span></p>
+
+                <p class="YellowToWhiteText">523 716 ТНВ <span class="WhiteText">— общая сумма расходов</span></p>
+
+                <p class="YellowToWhiteText">749 210 ТНВ <span class="WhiteText">— чистая прибыль от сдачи
+                в аренду</span></p>
+
+                <p class="YellowToWhiteText">60% от прибыли <span class="WhiteText">— доход владельца</span></p>
+
+                <p class="YellowToWhiteText">449 526 ТНВ <span class="WhiteText">— сумма дохода владельца,
+                что составляет 7,63% от стоимости
+                апартаментов</span></p>
+
+                <p class="YellowToWhiteText">5 890 000 ТНВ <span class="WhiteText">— стоимость
+                апартаментов</span></p>
+                <button id="back1" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+                <button id="next2" class="PageButton"><i class="fi fi-rs-angle-small-right"></i></button>
+            </div>
+            <div id="AboutTextThird" class="AboutText" style="display: none">
+                <p>Так выглядит проект студии</p>
+                <div class="ProjectExample">
+                    <img class="ProjectExample" src="img/ProjectExample.jpg" alt="ProjectExample" title="ProjectExample">
+                </div>
+                <p>Кухня 7,28 м2</p>
+                <p>Ванна 4,36 м2</p>
+                <p>Спальня 18,23 м2</p>
+                <p>Балкон 6,85 м2</p>
+                <button id="back2" class="PageButton"><i class="fi fi-rs-angle-small-left"></i></button>
+            </div>
+
+            <form id="form">
+                <input type="text" placeholder="Name" id="user_name">
+                <input type="text" placeholder="Budget ($)" id="user_budget">
+                <input type="text" placeholder="Quadrature" id="user_quadrature">
+            </form>
+            <div id="CountButton" class="CountEstateButton" style="display: none;">
+                <a href="villa-view.html"><button id="count"><i class="fi fi-rs-paper-plane"></i></button></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="bottom-button">
+                <button id="enter"><i class="fi fi-rs-portal-enter"></i></button>
+                <a href="index.html"><button id="home"><i class="fi fi-rs-home"></i></button></a>
+            </div>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
