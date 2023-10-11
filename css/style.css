@@ -67,10 +67,10 @@ h1, h2, h3, p {
     height: 6vh;
 }
 .VillaObjectHeader {
-    min-height: 27vh;
 }
 .VillaObjectHeader img {
-    height: 24vh;
+    width: 100%;
+    height: auto;
 }
 .ProjectExample {
 }
