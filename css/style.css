@@ -8,10 +8,11 @@
 
 body {
     font-family: 'Garamond', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     /*font-size: 20px;*/
     color: #f0e47d;
     background: black;
+    letter-spacing: 1px;
     /*color: var(--tg-theme-text-color);*/
     /*background: var(--tg-theme-bg-color);*/
 }
