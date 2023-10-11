@@ -80,7 +80,7 @@ h1, h2, h3, p {
 }
 .Middle {
     margin: 10px;
-    min-height: 100vh;
+    min-height: 110vh;
     text-align: center;
     line-height: 5;
     /*border: 2px solid #f0e47d;*/
