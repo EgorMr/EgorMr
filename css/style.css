@@ -64,7 +64,8 @@ h1, h2, h3, p {
     }
 
 .CompanyHeader img {
-    height: 6vh;
+    width: 75%;
+    height: auto;
 }
 .VillaObjectHeader {
 }
