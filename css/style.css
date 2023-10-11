@@ -41,16 +41,22 @@ main {
 
 }
 h1, h2, h3, p {
+    /*background: linear-gradient(to right,#f0e47d, #f5f6e8);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+}
+.GradientTextYellowToWhite {
     background: linear-gradient(to right,#f0e47d, #f5f6e8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/*.YellowToWhiteText {*/
-/*    color: darkorange;*/
-/*}*/
-/*.WhiteText {*/
-/*    color: white;*/
-/*}*/
+.YellowToWhiteText {
+    /*color: darkorange;*/
+    color: #f0e47d;
+}
+.WhiteText {
+    color: #f5f6e8;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
