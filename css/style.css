@@ -98,6 +98,12 @@ h1, h2, h3, p {
     /*border-image: linear-gradient(to right, #f0e47d, #f5f6e8) 1;*/
     /*border-radius: 25px;*/
 }
+.LeftText {
+    text-align: left;
+}
+.BlockText {
+    margin-bottom: 2vh;
+}
 .ColumnInfo {
     /*column-width: 48%;*/
     /*column-count: 2;*/
