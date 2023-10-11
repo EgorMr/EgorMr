@@ -102,7 +102,8 @@ h1, h2, h3, p {
     /*border-radius: 25px;*/
 }
 .LeftText {
-    margin-left: 3vh;
+    margin-left: 15%;
+    max-width: 70%;
 }
 .BlockText {
     text-align: left;
