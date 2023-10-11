@@ -59,6 +59,9 @@ h1, h2, h3, p {
     opacity: 1;
   }
 }
+.PageHeader {
+    margin-bottom: 10%;
+}
 .CompanyHeader {
     padding-top: 10vh;
     }
