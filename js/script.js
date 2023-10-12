@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-let enter = document.getElementById('enter')
+// let enter = document.getElementById('enter')
 let about = document.getElementById('about')
 let next1 = document.getElementById('next1')
 let next2 = document.getElementById('next2')
@@ -22,8 +22,8 @@ document.addEventListener( 'click', (e) => {
 		div.style.display = 'none'; // скрываем элемент т к клик был за его пределами
 	}
 })
-
-enter.addEventListener('click', () => {
+Array.from(document.querySelectorAll('.EnterButton'), function(el){
+  el.onclick = function(){
     document.getElementById('form').style.display = "block";
     document.getElementById('CountButton').style.display = "block";
     if (document.getElementById('FirstText') != null) {
@@ -61,7 +61,48 @@ enter.addEventListener('click', () => {
                 }
     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
 
-});
+
+} })
+
+// enter.addEventListener('click', () => {
+//     document.getElementById('form').style.display = "block";
+//     document.getElementById('CountButton').style.display = "block";
+//     if (document.getElementById('FirstText') != null) {
+//         document.getElementById('FirstText').style.display = "none";
+//                 }
+//     if (document.getElementById('SecondText') != null) {
+//         document.getElementById('SecondText').style.display = "none";
+//                 }
+//     if (document.getElementById('ColumnInfo') != null) {
+//         document.getElementById('ColumnInfo').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutInfoText') != null) {
+//         document.getElementById('AboutInfoText').style.display = "none";
+//                 }
+//     if (document.getElementById('SecondText') != null) {
+//         document.getElementById('SecondText').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutTextFirst') != null) {
+//         document.getElementById('AboutTextFirst').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutTextSecond') != null) {
+//         document.getElementById('AboutTextSecond').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutTextThird') != null) {
+//         document.getElementById('AboutTextThird').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutTextFourth') != null) {
+//         document.getElementById('AboutTextFourth').style.display = "none";
+//                 }
+//     if (document.getElementById('AboutTextFifth') != null) {
+//     document.getElementById('AboutTextFifth').style.display = "none";
+//                 }
+//     if (document.getElementById('PageHeader') != null) {
+//     document.getElementById('PageHeader').style.display = "none";
+//                 }
+//     document.getElementById('user_name').value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+//
+// });
 if (about != null) {
     about.addEventListener('click', () => {
     document.getElementById('form').style.display = "none";
@@ -95,6 +136,8 @@ if (next2 != null) {
         document.getElementById('AboutTextFirst').style.display = "none";
         document.getElementById('AboutTextSecond').style.display = "none";
         document.getElementById('AboutTextThird').style.display = "block";
+        document.getElementById('enter').style.display = "none";
+        document.getElementById('enterSec').style.display = "block";
     });
 }
 if (next3 != null) {
