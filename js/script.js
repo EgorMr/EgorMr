@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-// let enter = document.getElementById('enter')
+let enter = document.getElementById('enter')
 let about = document.getElementById('about')
 let next1 = document.getElementById('next1')
 let next2 = document.getElementById('next2')
@@ -137,7 +137,6 @@ if (next2 != null) {
         document.getElementById('AboutTextSecond').style.display = "none";
         document.getElementById('AboutTextThird').style.display = "block";
         document.getElementById('enter').style.display = "none";
-        document.getElementById('enterSec').style.display = "block";
     });
 }
 if (next3 != null) {
