@@ -21,6 +21,7 @@ tg.expand()
 // 		div.style.display = 'block';
 // 	}
 // })
+
 Array.from(document.querySelectorAll('.EnterButton'), function(el){
   el.onclick = function(){
     document.getElementById('form').style.display = "block";
