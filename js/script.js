@@ -13,19 +13,20 @@ let home = document.getElementById('home')
 let count = document.getElementById('count')
 tg.expand()
 
-const div = document.querySelector( '#popup');
-
-document.addEventListener( 'click', (e) => {
-	const withinBoundaries = e.composedPath().includes(div);
-
-	if ( ! withinBoundaries ) {
-		div.style.display = 'none'; // скрываем элемент т к клик был за его пределами
-	}
-})
+// const div = document.querySelector( 'form');
+//
+// document.addEventListener( 'click', (e) => {
+// 	const withinBoundaries = e.composedPath().includes(div);
+// 	if (! withinBoundaries) {
+// 		div.style.display = 'block';
+// 	}
+// })
 Array.from(document.querySelectorAll('.EnterButton'), function(el){
   el.onclick = function(){
     document.getElementById('form').style.display = "block";
     document.getElementById('CountButton').style.display = "block";
+    document.getElementById('enter').style.display = "none";
+    document.getElementById('home').style.display = "inline-block";
     if (document.getElementById('FirstText') != null) {
         document.getElementById('FirstText').style.display = "none";
                 }
@@ -110,7 +111,12 @@ if (about != null) {
 }
 if (home != null) {
     home.addEventListener('click', () => {
-        document.getElementById('FirstText').style.display = "block";
+        document.getElementById('form').style.display = "none";
+        document.getElementById('AboutTextFirst').style.display = "none";
+        document.getElementById('AboutTextSecond').style.display = "none";
+        document.getElementById('AboutTextThird').style.display = "none";
+        document.getElementById('AboutTextFourth').style.display = "none";
+        document.getElementById('AboutTextFifth').style.display = "none";
         // tg.close()
     });
 }
