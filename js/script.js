@@ -13,14 +13,14 @@ let home = document.getElementById('home')
 let count = document.getElementById('count')
 tg.expand()
 
-// const div = document.querySelector( 'form');
-//
-// document.addEventListener( 'click', (e) => {
-// 	const withinBoundaries = e.composedPath().includes(div);
-// 	if (! withinBoundaries) {
-// 		div.style.display = 'block';
-// 	}
-// })
+const div = document.querySelector( 'input');
+
+document.addEventListener( 'click', (e) => {
+	const withinBoundaries = e.composedPath().includes(div);
+	if (! withinBoundaries) {
+		div.style.display = 'block';
+	}
+})
 
 Array.from(document.querySelectorAll('.EnterButton'), function(el){
   el.onclick = function(){
