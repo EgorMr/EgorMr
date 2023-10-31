@@ -26,6 +26,16 @@ main {
 .container a{
     text-decoration: None;
 }
+.NextBtn .carousel-control-next,.NextBtn .carousel-control-prev {
+    width: 5%;
+}
+/*.carousel-control-next-icon {*/
+/*    filter: invert(100%) sepia(93%) saturate(1030%) hue-rotate(339deg) brightness(101%) contrast(88%);*/
+/*}*/
+/*.NextBtn span,.NextBtn span{*/
+/*    color: #f0e47d;*/
+/*}*/
+
 .NextBtn button:hover {
     background-color: unset;
 }
@@ -143,8 +153,8 @@ margin-left: 52%;
     font-size: 14px;
     padding: 5px;
 }
-.EstatePrice {
-    font-size: 20px!important;
+.CardText {
+    padding: 1vh;
 }
 .RotatingCard {
   position: relative;
