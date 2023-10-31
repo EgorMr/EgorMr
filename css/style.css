@@ -23,11 +23,10 @@ main {
     padding: 10px;
     line-height: 25px;
 }
-.container {
+.container a{
+    text-decoration: None;
 }
-.PhotoTable {
 
-}
 .PhotoTableMini img {
     width: 100%;
     margin-bottom: 1em;
@@ -202,7 +201,7 @@ margin-left: 52%;
 }
 
 .RotatingCard:hover::after {
-  filter: blur(15px);
+  filter: blur(17px);
 }
 
 .RotatingCard:hover::before {
