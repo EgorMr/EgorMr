@@ -26,7 +26,9 @@ main {
 .container a{
     text-decoration: None;
 }
-
+.NextBtn button:hover {
+    background-color: unset;
+}
 .PhotoTableMini img {
     width: 100%;
     margin-bottom: 1em;
@@ -143,8 +145,8 @@ margin-left: 52%;
 }
 .RotatingCard {
   position: relative;
-  width: 90%;
-  height: 80%;
+  width: 45vh;
+  height: 43vh;
   background-color: #000;
   margin: 5%;
   line-height: 0.5;
