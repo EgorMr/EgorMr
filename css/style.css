@@ -183,7 +183,7 @@ margin-left: 52%;
   inset: 0;
   background: linear-gradient(-45deg, #f0e47d 0%, #f5f6e8 100% );
   transform: translate3d(0, 0, 0) scale(0.95);
-  filter: blur(20px);
+  filter: blur(15px);
 }
 
 .RotatingCardHeading {
@@ -202,7 +202,7 @@ margin-left: 52%;
 }
 
 .RotatingCard:hover::after {
-  filter: blur(30px);
+  filter: blur(15px);
 }
 
 .RotatingCard:hover::before {
