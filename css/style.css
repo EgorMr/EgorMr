@@ -164,8 +164,11 @@ margin-left: 52%;
   position: absolute;
   inset: 0;
   margin: auto;
-  width: 33vh;
-  height: 60vh;
+  /*width: 33vh;*/
+  /*height: 60vh;*/
+  width: 46vh;
+  height: 44vh;
+  left: -4px;
   border-radius: 10px;
   background: linear-gradient(-45deg, #f0e47d 0%, #f5f6e8 100% );
   z-index: -10;
@@ -203,7 +206,7 @@ margin-left: 52%;
 }
 
 .RotatingCard:hover::before {
-  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+  transform: rotate(-180deg);
 }
 
 
