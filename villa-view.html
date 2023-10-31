@@ -60,14 +60,15 @@
 
             </div>
             <form id="form">
-<!--                <div>-->
-<!--                    <button id="CloseForm" class="ButtonSmall">-->
-<!--                        <i class="fi fi-rs-cross-small"></i>-->
-<!--                    </button>-->
-<!--                </div>-->
-                <input type="text" placeholder="Name" id="user_name">
-                <input type="number" pattern="[0-9]*" placeholder="Budget ($)" id="user_budget">
-                <input type="number" pattern="[0-9]*" placeholder="Quadrature" id="user_quadrature">
+                <div class="BudgetRange">
+                    <div class="BudgetHead">
+                        <h3 class="GradientTextYellowToWhite">Выберите диапазон бюджета</h3>
+                    </div>
+                    <input type="text" placeholder="Name" id="user_name">
+                    <button class="BudgetRange" disabled value="0">До 30</button>
+                    <button class="BudgetRange" disabled value="30">30-50</button>
+                    <button class="BudgetRange" disabled value="50">50+</button>
+                </div>
             </form>
             <div id="CountButton" class="CountEstateButton" style="display: none;">
                 <a href="villa-view.html"><button id="count"><i class="fi fi-rs-calculator-simple"></i></button></a>
