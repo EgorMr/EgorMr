@@ -28,8 +28,7 @@ main {
 
 }
 .container a{
-    text-align: -webkit-center;
-    text-align: -moz-center;
+    /*text-align: -webkit-center;*/
     text-decoration: None;
 }
 .NextBtn .carousel-control-next,.NextBtn .carousel-control-prev {
@@ -144,12 +143,12 @@ h1, h2, h3, p {
     overflow: hidden;
 }
 .LeftColumn {
-float: left;
-width: 48%;
+    float: left;
+    width: 48%;
 }
 
 .RightColumn {
-margin-left: 52%;
+    margin-left: 52%;
 }
 .LeftColumn, .RightColumn {
     line-height: 1.2;
@@ -165,16 +164,16 @@ margin-left: 52%;
 .MainText {
 }
 .carousel-item {
-    float: unset;
+    /*float: unset;*/
 }
 .RotatingCard {
   position: relative;
   width: 93%;
   /*height: 50vh;*/
   background-color: #000;
-  /*margin: 5%;*/
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 4%;
+  /*margin-top: 5%;*/
+  /*margin-bottom: 5%;*/
   line-height: 0.5;
   display: flex;
   flex-direction: column;
