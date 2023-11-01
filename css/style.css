@@ -162,7 +162,7 @@ margin-left: 52%;
 .RotatingCard {
   position: relative;
   width: 93%;
-  height: 50vh;
+  /*height: 50vh;*/
   background-color: #000;
   /*margin: 5%;*/
   margin-top: 5%;
@@ -186,7 +186,7 @@ margin-left: 52%;
   /*width: 33vh;*/
   /*height: 60vh;*/
   width: 103%;
-  height: 51vh;
+  height: 102%;
   left: -1.5%;
   border-radius: 10px;
   background: linear-gradient(-45deg, #f0e47d 0%, #f5f6e8 100% );
