@@ -29,6 +29,7 @@ main {
 }
 .container a{
     text-align: -webkit-center;
+    text-align: -moz-center;
     text-decoration: None;
 }
 .NextBtn .carousel-control-next,.NextBtn .carousel-control-prev {
