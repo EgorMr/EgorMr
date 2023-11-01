@@ -159,6 +159,9 @@ margin-left: 52%;
 }
 .MainText {
 }
+.carousel-item {
+    float: unset;
+}
 .RotatingCard {
   position: relative;
   width: 93%;
