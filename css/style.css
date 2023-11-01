@@ -157,6 +157,9 @@ margin-left: 52%;
 .CardText {
     padding: 1vh;
 }
+.MainText {
+  padding: 10%;
+}
 .RotatingCard {
   position: relative;
   width: 93%;
@@ -214,7 +217,7 @@ margin-left: 52%;
 }
 
 .RotatingCard p:last-child {
-  color: #f0e47d;
+  /*color: #f0e47d;*/
   font-weight: 600;
 }
 
