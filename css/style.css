@@ -24,6 +24,7 @@ main {
     line-height: 25px;
 }
 .container a{
+    text-align: -webkit-center;
     text-decoration: None;
 }
 .NextBtn .carousel-control-next,.NextBtn .carousel-control-prev {
