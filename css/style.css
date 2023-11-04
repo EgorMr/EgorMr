@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@600;500&display=swap");
-
+/*@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@600;500&display=swap");*/
+@font-face {
+  font-family: "avantgarde_demi";
+  src: url("../fonts/avantgarde_demi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
 }
 
 body {
-    font-family: 'Garamond', sans-serif;
+    /*font-family: 'Garamond', sans-serif;*/
     font-weight: 500;
     /*font-size: 20px;*/
     color: #f0e47d;
@@ -216,6 +221,9 @@ h1, h2, h3, p {
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
+}
+.RotatingCard img{
+    border-radius: 3%;
 }
 
 .RotatingCard p:not(.RotatingCardHeading) {
