@@ -1,9 +1,9 @@
 /*@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@600;500&display=swap");*/
 @font-face {
-  font-family: "avantgarde_demi";
-  src: url("../fonts/avantgarde_demi.ttf") format("truetype");
+  font-family: "FF.Mark.Pro.Black";
+  src: url("../fonts/FF.Mark.Pro.Black.otf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 * {
     margin: 0;
@@ -12,8 +12,8 @@
 }
 
 body {
-    font-family: 'avantgarde_demi', sans-serif;
-    font-weight: 500;
+    font-family: 'FF.Mark.Pro.Black', sans-serif;
+    font-weight: 700;
     /*font-size: 20px;*/
     color: #f0e47d;
     background: black;
@@ -139,6 +139,9 @@ h1, h2, h3, p {
     text-align: left;
     margin-bottom: 2vh;
 }
+.ColumnShortInfo {
+    text-align: left;
+    }
 .ColumnInfo {
     /*column-width: 48%;*/
     /*column-count: 2;*/
@@ -165,6 +168,7 @@ h1, h2, h3, p {
 }
 .CardText {
     padding: 1vh;
+    margin-left: 3%;
 }
 .MainText {
 }
@@ -231,10 +235,10 @@ h1, h2, h3, p {
   font-size: 14px;
 }
 
-.RotatingCard p:last-child {
-  /*color: #f0e47d;*/
-  font-weight: 600;
-}
+/*.RotatingCard p:last-child {*/
+/*  !*color: #f0e47d;*!*/
+/*  font-weight: 600;*/
+/*}*/
 
 .RotatingCard:hover::after {
   filter: blur(17px);
