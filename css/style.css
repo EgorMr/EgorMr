@@ -1,7 +1,7 @@
 /*@import url("https://fonts.googleapis.com/css2?family=EBGaramond:wght@600;500&display=swap");*/
 @font-face {
-  font-family: "FF.Mark.Pro.Black";
-  src: url("../fonts/FF.Mark.Pro.Black.otf") format("truetype");
+  font-family: "GillSansLightC";
+  src: url("../fonts/GillSansLightC.otf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'FF.Mark.Pro.Black', sans-serif;
+    font-family: 'GillSansLightC', sans-serif;
     font-weight: 700;
     /*font-size: 20px;*/
     color: #f0e47d;
