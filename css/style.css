@@ -254,7 +254,6 @@ button i {
 
 button {
     margin: 3%;
-    padding: 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -274,8 +273,13 @@ button:hover {
 /*button:after {*/
 /*    transform: rotateX(90deg);*/
 /*}*/
-.HomeButton, .InfoButton, .EnterButton, .CountButton{
+.HomeButton, .InfoButton, .EnterButton {
     width: 25%;
+    padding: 5%;
+}
+.CountButton {
+    width: 23%;
+    padding: 2.5vh;
 }
 .PageButton {
     margin-top: 5vh;
