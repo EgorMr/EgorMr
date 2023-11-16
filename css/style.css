@@ -269,12 +269,11 @@ button:hover {
     color: black;
     background-color: #f0e47d;
 }
-button:after {
-    transform: rotateX(90deg);
-}
+/*button:after {*/
+/*    transform: rotateX(90deg);*/
+/*}*/
 .HomeButton, .InfoButton, .EnterButton, .CountButton{
     width: 25%;
-
 }
 .PageButton {
     margin-top: 5vh;
