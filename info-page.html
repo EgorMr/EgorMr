@@ -56,14 +56,25 @@
                 <input type="text" placeholder="Budget ($)" id="user_budget">
                 <input type="text" placeholder="Quadrature" id="user_quadrature">
             </form>
-            <div id="CountButton" class="CountEstateButton" style="display: none;">
-                <a href="villa-view.html"><button id="count"><i class="fi fi-rs-paper-plane"></i></button></a>
-            </div>
+            <a href="ObjectsTableView.html">
+                <button id="count" class="CountButton" type="submit">
+                    <i class="fi fi-rs-calculator-simple"></i>
+                    <span class="ButtonPreInfo"><br>Далее</span>
+                </button>
+            </a>
         </div>
         <div class="footer">
             <div class="bottom-button">
-                <button id="enter"><i class="fi fi-rs-portal-enter"></i></button>
-                <a href="index.html"><button id="home"><i class="fi fi-rs-home"></i></button></a>
+                <a href="index.html">
+                    <button id="home" class="HomeButton" style="display: none;">
+                        <i class="fi fi-rs-home"></i>
+                        <span class="ButtonPreInfo"><br>Главная</span>
+                    </button>
+                </a>
+                <button id="enter" class="EnterButton">
+                    <i class="fi fi-rs-bullseye-pointer"></i>
+                    <span class="ButtonPreInfo"><br>Подбор</span>
+                </button>
             </div>
         </div>
     </div>
